@@ -5,6 +5,15 @@
 # Copyright:: 2020, The Authors, All Rights Reserved.
 #
 #
+#
+#
+#
+execute 'immutable' do
+	command 'chattr +i /etc/systeminfo'
+	creates '/tmp/cheflog'
+	action :run
+end
+
 file '/etc/systeminfo' do
 	content 'test file'
 
@@ -16,4 +25,7 @@ file '/etc/systeminfo' do
 #        chattr '+i'
         owner 'root'
         group 'root'
+	action	:create_if_missing
+	notifies :run, 'execute[immutable]', :immediately
+
 end
