@@ -4521,12 +4521,10 @@
           },
           "state": "up",
           "arp": {
-            "192.168.44.254": "00:50:56:e2:2a:18",
-            "192.168.44.139": "00:0c:29:55:69:8e",
-            "192.168.44.138": "00:0c:29:68:5e:2c",
+            "192.168.44.254": "00:50:56:e7:8b:71",
             "192.168.44.136": "00:0c:29:2f:d5:46",
-            "192.168.44.1": "00:50:56:c0:00:08",
-            "192.168.44.2": "00:50:56:ff:03:6c"
+            "192.168.44.2": "00:50:56:ff:03:6c",
+            "192.168.44.1": "00:50:56:c0:00:08"
           },
           "routes": [
             {
@@ -4586,16 +4584,16 @@
           "lo": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "18132",
-              "packets": "244",
+              "bytes": "28453",
+              "packets": "363",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "18132",
-              "packets": "244",
+              "bytes": "28453",
+              "packets": "363",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -4604,16 +4602,16 @@
           "ens33": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "2175971",
-              "packets": "20571",
+              "bytes": "3271450",
+              "packets": "30807",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "3051633",
-              "packets": "26901",
+              "bytes": "9021757",
+              "packets": "41085",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -4639,29 +4637,29 @@
         "surplus": "0"
       },
       "directmap": {
-        "4k": "116608kB",
-        "2M": "1980416kB",
+        "4k": "130944kB",
+        "2M": "1966080kB",
         "1G": "0kB"
       },
       "total": "2017484kB",
-      "free": "1114900kB",
-      "available": "1576868kB",
-      "buffers": "54776kB",
-      "cached": "503108kB",
-      "active": "536376kB",
-      "inactive": "163620kB",
-      "dirty": "500kB",
+      "free": "1073920kB",
+      "available": "1566636kB",
+      "buffers": "59440kB",
+      "cached": "526204kB",
+      "active": "581084kB",
+      "inactive": "139896kB",
+      "dirty": "472kB",
       "writeback": "0kB",
-      "anon_pages": "142108kB",
-      "mapped": "66676kB",
-      "slab": "126064kB",
-      "slab_reclaimable": "72788kB",
-      "slab_unreclaim": "53276kB",
-      "page_tables": "5856kB",
+      "anon_pages": "135312kB",
+      "mapped": "67300kB",
+      "slab": "138684kB",
+      "slab_reclaimable": "78700kB",
+      "slab_unreclaim": "59984kB",
+      "page_tables": "5860kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "1008740kB",
-      "committed_as": "456892kB",
+      "committed_as": "456072kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "0kB",
       "vmalloc_chunk": "0kB",
@@ -4753,12 +4751,12 @@
         },
         "/dev/mapper/ubuntu--vg-ubuntu--lv": {
           "kb_size": "14384136",
-          "kb_used": "3616540",
-          "kb_available": "10122080",
+          "kb_used": "3616904",
+          "kb_available": "10121716",
           "percent_used": "27%",
           "total_inodes": "917504",
-          "inodes_used": "167159",
-          "inodes_available": "750345",
+          "inodes_used": "167216",
+          "inodes_available": "750288",
           "inodes_percent_used": "19%",
           "fs_type": "ext4",
           "mount_options": [
@@ -5084,8 +5082,8 @@
         },
         "/run": {
           "kb_size": "201752",
-          "kb_used": "1204",
-          "kb_available": "200548",
+          "kb_used": "1212",
+          "kb_available": "200540",
           "percent_used": "1%",
           "total_inodes": "252185",
           "inodes_used": "739",
@@ -5106,12 +5104,12 @@
         },
         "/": {
           "kb_size": "14384136",
-          "kb_used": "3616540",
-          "kb_available": "10122080",
+          "kb_used": "3616904",
+          "kb_available": "10121716",
           "percent_used": "27%",
           "total_inodes": "917504",
-          "inodes_used": "167159",
-          "inodes_available": "750345",
+          "inodes_used": "167216",
+          "inodes_available": "750288",
           "inodes_percent_used": "19%",
           "fs_type": "ext4",
           "mount_options": [
@@ -5632,8 +5630,8 @@
         "tmpfs,/run": {
           "device": "tmpfs",
           "kb_size": "201752",
-          "kb_used": "1204",
-          "kb_available": "200548",
+          "kb_used": "1212",
+          "kb_available": "200540",
           "percent_used": "1%",
           "mount": "/run",
           "total_inodes": "252185",
@@ -5653,13 +5651,13 @@
         "/dev/mapper/ubuntu--vg-ubuntu--lv,/": {
           "device": "/dev/mapper/ubuntu--vg-ubuntu--lv",
           "kb_size": "14384136",
-          "kb_used": "3616540",
-          "kb_available": "10122080",
+          "kb_used": "3616904",
+          "kb_available": "10121716",
           "percent_used": "27%",
           "mount": "/",
           "total_inodes": "917504",
-          "inodes_used": "167159",
-          "inodes_available": "750345",
+          "inodes_used": "167216",
+          "inodes_available": "750288",
           "inodes_percent_used": "19%",
           "fs_type": "ext4",
           "mount_options": [
@@ -6272,10 +6270,10 @@
     "time": {
       "timezone": "UTC"
     },
-    "uptime_seconds": 15176,
-    "uptime": "4 hours 12 minutes 56 seconds",
-    "idletime_seconds": 14927,
-    "idletime": "4 hours 08 minutes 47 seconds",
+    "uptime_seconds": 23160,
+    "uptime": "6 hours 26 minutes 00 seconds",
+    "idletime_seconds": 22833,
+    "idletime": "6 hours 20 minutes 33 seconds",
     "cloud": null,
     "sysconf": {
       "LINK_MAX": 65000,
@@ -6341,7 +6339,7 @@
       "ULONG_MAX": 18446744073709551615,
       "USHRT_MAX": 65535,
       "WORD_BIT": 32,
-      "_AVPHYS_PAGES": 278358,
+      "_AVPHYS_PAGES": 268080,
       "_NPROCESSORS_CONF": 1,
       "_NPROCESSORS_ONLN": 1,
       "_PHYS_PAGES": 504371,
@@ -6603,7 +6601,7 @@
     "machinename": "chefworkstation",
     "fqdn": "chefworkstation",
     "domain": null,
-    "ohai_time": 1582473913.8190825,
+    "ohai_time": 1582735247.8247635,
     "keys": {
       "ssh": {
         "host_dsa_public": "AAAAB3NzaC1kc3MAAACBAOd8hiX9qjXC8zw5mUh892NrH6PJS5KvViVDfOJqsy/kwsKHXyLim3E+89KBi1h+qAPsrqIvpRznvKcZDLwbfl+/G9Irq7D9Yg4r3KQ+6UmcIAZ9aqf8S/GA048mcizPiMQdHMB4cRXptzDWrAoe8bO5FX13caRQ5dBZd6jXy3LRAAAAFQDOk3QbV1BirkSEwPsi1ZBMfM+0KwAAAIEAhSyOzgJ16FGCxQMuEx6WWOdBEa6kF65SO+pWUrFNbUSUfC+av+0CKVJq+fmtEIj8A4cfFTKSte1qSxjRPqB0VWcLNbs1pnO9aSgVpiCZIViBqRA0DxY+KUuKT32MtSBNNmmQ4FG3yjRB8M8ntVGdWRKhQhPF3qBojDJ8DTii3/AAAACAcbFJZQ/8peXc3KeJM2CoWmiv40G5/Bpx1w/3HAedshfxK8u2jvijRMYyBHgvbf4CwK9lCVgA3aAgxrMsSbxFUYXdopXwzb93yROIFKVilnFyohy2VtxmVM2DNx/E/TUL14fTMq9p0SV/p9thJjpC0hJZBniXueZBNGj8JP1KUQc=",
@@ -6615,7 +6613,7 @@
     },
     "root_group": "root",
     "vmware": {
-      "hosttime": "23 Feb 2020 16:05:13",
+      "hosttime": "26 Feb 2020 16:40:48",
       "speed": "3593 MHz",
       "sessionid": null,
       "balloon": null,
@@ -9225,7 +9223,7 @@
         "arch": "all"
       },
       "rsync": {
-        "version": "3.1.2-2.1ubuntu1",
+        "version": "3.1.2-2.1ubuntu1.1",
         "arch": "amd64"
       },
       "rsyslog": {
@@ -9537,7 +9535,7 @@
     ],
     "cookbooks": {
       "chefsysinfo": {
-        "version": "2.1.0"
+        "version": "2.1.5"
       }
     }
   },

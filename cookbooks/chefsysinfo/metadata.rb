@@ -3,7 +3,7 @@ maintainer 'Fiyas Ahamed'
 maintainer_email 'opsadmin@fiyaslocal.com'
 license 'All Rights Reserved'
 description 'Installs/Configures chefsysinfo'
-version '2.1.3'
+version '2.1.5'
 chef_version '>= 14.0'
 
 # The `issues_url` points to the location where issues for this cookbook are
